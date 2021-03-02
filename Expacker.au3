@@ -3,6 +3,7 @@
 #include <GUIConstantsEx.au3>
 #include <WindowsConstants.au3>
 #include <StaticConstants.au3>
+#include <EditConstants.au3>
 #include <GUIButton.au3>
 #include <GuiMenu.au3>
 #include "include\TreeViewTab.au3"
