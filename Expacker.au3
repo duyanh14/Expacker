@@ -14,7 +14,7 @@ DllCall("uxtheme.dll", "none", "SetThemeAppProperties", "int", True)
 
 Opt("GuiOnEventMode", 1)
 
-_Gui_Main()
+_GUI_Main()
 
 While True
 	Sleep(1000)
@@ -24,3 +24,4 @@ Func _Exit()
 		ProcessClose(@AutoItPID)
 	Exit
 EndFunc   ;==>_Exit
+	
